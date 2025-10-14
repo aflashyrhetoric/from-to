@@ -15,10 +15,12 @@ export function App() {
             from: {
                 display: "block",
                 opacity: 1,
+                height: "auto",
             },
             to: {
                 display: "none",
                 opacity: 0,
+                height: 0,
             },
         });
     }, []);
